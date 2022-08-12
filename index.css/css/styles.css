@@ -17,7 +17,8 @@ body {
 }
 
 li {
-  list-style: none;
+  list-style-type: none;
+  color: #f1c40f;
 }
 
 a {
@@ -94,6 +95,9 @@ h2{
 h3{
   color: rgb(17, 222, 85);
   font-family: Bradley Hand, cursive;
+}
+p{
+  color: #f1c40f;
 }
 
 .logo > img {
@@ -173,11 +177,11 @@ nav > ul {
   transition: background-color 1s;
 }
 
-@media (max-width: 650px) {
+
   #hero {
     margin-top: 0px;
   }
-}
+
 
 #features {
   margin-top: 30px;
@@ -187,9 +191,7 @@ nav > ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 125px;
-  width: 20vw;
-  color: darkorange;
+ 
 }
 
 @media (max-width: 550px) {
@@ -222,13 +224,13 @@ nav > ul {
   }
 
 
-#how-it-works {
+#video {
   margin-top: 50px;
   display: flex;
   justify-content: center;
 }
 
-#how-it-works > iframe {
+#video > iframe {
   max-width: 560px;
   width: 100%;
 }
@@ -296,11 +298,25 @@ nav > ul {
   }
 }
 
+.backgraund__footer{
+  color: #000;
+  position: relative;
+    background: space;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+}
+}
+
 footer {
   margin-top: 30px;
   background-color: #ddd;
   padding: 20px;
-}
+  }
+
 
 footer > ul {
   display: flex;
@@ -327,3 +343,8 @@ footer > span {
   position: fixed;
   top: 0;
   left: 0;
+}
+
+h4{
+  color: coral;
+}
