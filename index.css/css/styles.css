@@ -8,8 +8,8 @@
 }
 
 body {
-  background-color: rgba(89, 72, 72, 0.538);
-  font-family: 'Lato', sans-serif;
+  background-color: rgba(248, 2, 2, 0.932);
+  font-family: Bradley Hand, cursive;
 }
 
 #page-wrapper {
@@ -21,8 +21,8 @@ li {
 }
 
 a {
-  color: #000;
-  text-decoration: none;
+  color: rgb(228, 253, 3);
+  text-decoration: onen;
 }
 
 /** global classes styling **/
@@ -53,11 +53,11 @@ header {
   
   top: 0;
   min-height: 75px;
-  /* padding: 0px 20px; */
+  padding: 0px 20px; 
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #eee;
+ 
 }
 
 @media (max-width: 600px) {
@@ -68,6 +68,9 @@ header {
 
 .logo {
   width: 60vw;
+  margin-top: 15px;
+  width: 100%;
+   position: relative;
 }
 
 @media (max-width: 650px) {
@@ -79,6 +82,18 @@ header {
 }
 h1{
   margin-top: 15px;
+  color: rgb(17, 222, 85);
+  font-family: Bradley Hand, cursive;
+  
+}
+
+h2{
+  color: rgb(17, 222, 85);
+  font-family: Bradley Hand, cursive;
+}
+h3{
+  color: rgb(17, 222, 85);
+  font-family: Bradley Hand, cursive;
 }
 
 .logo > img {
@@ -92,26 +107,23 @@ h1{
   margin-left: 20px;
 }
 
-@media (max-width: 650px) 
-
 nav {
   font-weight: 400;
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 50px;
 }
+nav li {
+  padding-bottom: 5px;
+   } 
+  
 
-@media (max-width: 650px) {
-  nav {
-    margin-top: 10px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 0 50px;
-  }
-  nav li {
-    padding-bottom: 5px;
-  }
-}
+
+
 
 nav > ul {
   width: 35vw;
@@ -120,11 +132,11 @@ nav > ul {
   justify-content: space-around;
 }
 
-@media (max-width: 650px) {
+
   nav > ul {
     flex-direction: column;
   }
-}
+
 
 #hero {
   display: flex;
@@ -133,7 +145,7 @@ nav > ul {
   justify-content: center;
   text-align: center;
   height: 200px;
-  margin-top: 50px;
+  margin-top: 2px;
 }
 
 #hero > h2 {
@@ -141,7 +153,7 @@ nav > ul {
   word-wrap: break-word;
 }
 
-#hero input[type='email'] {
+#hero input[type='text'] {
   max-width: 275px;
   width: 100%;
   padding: 5px;
@@ -195,20 +207,20 @@ nav > ul {
   padding: 5px;
 }
 
-@media (max-width: 550px) {
+
   #features .desc {
     width: 100%;
     text-align: center;
     padding: 0;
     height: 150px;
   }
-}
 
-@media (max-width: 650px) {
+
+
   #features {
     margin-top: 0;
   }
-}
+
 
 #how-it-works {
   margin-top: 50px;
@@ -306,3 +318,12 @@ footer > span {
   font-size: 0.9em;
   color: #444;
 }
+
+#background {
+  min-height: 100%;
+  min-width: 640px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
